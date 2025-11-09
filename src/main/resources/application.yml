@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: product-recommendation-service
+  data:
+    mongodb:
+      database: testdb
+      uri: mongodb://localhost:27017
+
+app:
+  cache:
+    strategy: KEY
+    capacity: 100
