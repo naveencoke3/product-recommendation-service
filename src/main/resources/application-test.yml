@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: product-recommendation-service
+  data:
+    mongodb:
+      database: testdb
+
+app:
+  cache:
+    strategy: KEY
+    capacity: 100
